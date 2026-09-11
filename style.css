@@ -107,8 +107,8 @@ ul {
     line-height: 1.2;
 }
 
-#header {width: 700px;
-    height: 480px;}
+#header {width: 900px;
+    height: 300px;}
 
 #header img {
     border: 1px var(--dark-color) solid;
