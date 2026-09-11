@@ -1,11 +1,11 @@
 /*Here's JUST THE COLORS AND DECOR, for you to customize to your aesthetic taste.*/
 
 :root {
-    --main-color: lightslategray;
-    --light-color: #f5f5f5;
-    --mediumlight-color: #dcdcdc;
-    --medium-color: #aab2bb;
-    --dark-color: #1b2136;
+  --main-color: #FFB8D8;
+  --light-color: #f5f5f5;
+  --mediumlight-color: #dcdcdc;
+  --medium-color: #FFE6FA;
+  --dark-color: #1b2136;
 }
 
 /*"Main color" = background & scrollbar.
@@ -38,7 +38,7 @@ h3::after {
 
 /* Uncomment this if you want the layout to be centered instead of on the left side of the page:*/
 
-/* #header, .container, .footer, h1 {margin:auto;} */
+#header, .container, .footer, h1 {margin:auto;}
 
 /*And here's the rest of the layout. You can fuck with it however you want, too.*/
 
@@ -116,14 +116,14 @@ ul {
 }
 
 .container {
-    width: 700px;
+    width: 900px;
     display: flex;
     border: 1px var(--dark-color) solid;
     margin-top: 0px;
 }
 
 .sidebar {
-    width: 175px;
+    width: 300px;
     padding: 10px;
     gap: 10px;
     display: flex;
@@ -140,7 +140,7 @@ ul {
 margin-bottom:2px;}
 
 .sidebarbox {
-    width: 150px;
+    width: 200px;
     padding: 10px;
     border: 1px var(--dark-color) solid;
     background-color: var(--medium-color);
@@ -150,7 +150,7 @@ margin-bottom:2px;}
 }
 
 .main {
-    width: 350px;
+    width: 400px;
     padding: 10px;
     border-left: 1px solid var(--dark-color);
     border-right: 1px solid var(--dark-color);
@@ -177,8 +177,8 @@ margin-bottom:2px;}
 }
 
 #profilepic {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     margin: auto;
     margin-bottom: 10px;
     margin-top:10px;
